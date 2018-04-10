@@ -7,12 +7,16 @@
 2、把它放在C:\Users\目录下（可以随意更改，修改bat的对应路径即可）  
 3、新建txt文件，命名为“上线”（随意随意哈~）  
 4、打开输入如下语句：  
+```Bash
 @echo off  
-start cmd /k "cd/d C:\Users&&fchinanet -a 把我换成你的账号 -p 把我换成你的密码"  
+start cmd /k "cd/d C:\Users&&fchinanet -a 把我换成你的账号 -p 把我换成你的密码"
+```  
 5、保存后修改txt文件类型，改为bat即可食用  
 6、再次新建txt文件，命名为“下线”（as your wish~）  
 7、打开输入如下语句：  
+```Bash
 @echo off  
-start cmd /k "cd/d C:\Users&&fchinanet -a 把我换成你的账号 -p 把我换成你的密码 -b 0"  
+start cmd /k "cd/d C:\Users&&fchinanet -a 把我换成你的账号 -p 把我换成你的密码 -b 0"
+```
 8、同步骤5  
 9、Enjoy it！
